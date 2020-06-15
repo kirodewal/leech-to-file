@@ -151,7 +151,7 @@ async def incoming_message_f(client, message):
             # create download directory, if not exist
             if not os.path.isdir(new_download_location):
                 os.makedirs(new_download_location)
-            await i_m_sefg.edit_text("trying to download")
+            await i_m_sefg.edit_text("<b>Trying to download📩</b>")
             # try to download the "link"
             sagtus, err_message = await call_apropriate_function(
                 aria_i_p,
