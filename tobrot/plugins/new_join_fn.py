@@ -38,7 +38,9 @@ async def help_message_f(client, message):
     message_id = 99
     # display the /help message
     await message.reply_text(
-        f"<b>👋Hai Im Leech To File Bot</b>"\n"🙏Please read the <a href='https://t.me/Public_Leech_V01/36135'>Pinned Message</a>"\n"Leech To File <a href='https://t.me/Public_Leech_V01/37672'>Tutorial</a>",
+        f"👋Hai Im Leech To File Bot"
+"🙏Please read the <a href='https://t.me/Public_Leech_V01/36135'>Pinned Message</a>"
+"Leech To File <a href='https://t.me/Public_Leech_V01/37672'>Tutorial</a>",
         quote=True
     )
 
