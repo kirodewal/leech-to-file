@@ -33,12 +33,12 @@ async def new_join_f(client, message):
 
 
 async def help_message_f(client, message):
-    # await message.reply_text("no one gonna help you 🤣🤣🤣🤣", quote=True)
+    # await message.reply_text("No one gonna help you 🤣🤣🤣🤣", quote=True)
     channel_id = str(AUTH_CHANNEL)[4:]
     message_id = 99
     # display the /help message
     await message.reply_text(
-        f"🙏Please read the <a href='https://t.me/c/{channel_id}/{message_id}'>Pinned Message</a>",
+        f"<b>👋Hai Im Leech To File Bot</b>"\n"🙏Please read the <a href='https://t.me/Public_Leech_V01/36135'>Pinned Message</a>"\n"Leech To File <a href='https://t.me/Public_Leech_V01/37672'>Tutorial</a>",
         quote=True
     )
 
